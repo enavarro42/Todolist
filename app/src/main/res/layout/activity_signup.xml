@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/rds_spacing_4"
+    android:layout_margin="@dimen/rds_spacing_4"
+    tools:context=".ui.signup.SignupActivity">
+
+    <ImageView
+        android:id="@+id/back_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ds_ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/title"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_user"
+        android:textAlignment="center"
+        android:textAppearance="@style/DsBaseText.Title5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/user_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/rds_spacing_10"
+        android:background="@drawable/ds_bg_edittext"
+        android:hint="@string/user"
+        android:inputType="text"
+        android:padding="@dimen/rds_spacing_2"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <EditText
+        android:id="@+id/password_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/rds_spacing_4"
+        android:background="@drawable/ds_bg_edittext"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="@dimen/rds_spacing_2"
+        app:layout_constraintTop_toBottomOf="@+id/user_edittext" />
+
+    <EditText
+        android:id="@+id/password_confirm_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/rds_spacing_4"
+        android:background="@drawable/ds_bg_edittext"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:padding="@dimen/rds_spacing_2"
+        app:layout_constraintTop_toBottomOf="@+id/password_edittext" />
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/rds_spacing_10"
+        android:padding="@dimen/rds_spacing_2"
+        android:text="@string/create"
+        android:textColor="@color/ds_primary_B"
+        android:background="@drawable/ds_bg_task"
+        style="?android:attr/borderlessButtonStyle"
+        app:backgroundTint="@color/ds_content_E"
+        app:layout_constraintTop_toBottomOf="@+id/password_confirm_edittext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

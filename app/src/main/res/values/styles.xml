@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DsBaseText" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rds_nunito</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="DsBaseText.Label1">
+        <item name="android:textSize">@dimen/rds_label1_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.053</item>
+    </style>
+
+    <style name="DsBaseText.Label1.ContentB">
+        <item name="android:textColor">@color/ds_primary_C</item>
+    </style>
+
+    <style name="DsBaseText.Label2">
+        <item name="android:textSize">@dimen/rds_label1_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.053</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="DsBaseText.Label2.Primary">
+        <item name="android:textColor">@color/ds_content_A</item>
+    </style>
+
+    <style name="DsBaseText.Label1.Negative">
+        <item name="android:textColor">@color/ds_error</item>
+    </style>
+
+    <style name="DsBaseText.Label1.Positive">
+        <item name="android:textColor">@color/ds_positive</item>
+    </style>
+
+    <style name="DsBaseText.Title5">
+        <item name="android:textSize">@dimen/rds_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.053</item>
+    </style>
+
+    <style name="DsBaseText.BasicEditText" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:textSize">@dimen/rds_title_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingStart">@dimen/rds_spacing_8</item>
+        <item name="android:letterSpacing">-0.053</item>
+    </style>
+</resources>

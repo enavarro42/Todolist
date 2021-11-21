@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Todolist</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="my_task">Mis Tareas</string>
+    <string name="create_user">Crear usuario</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="create">Crear</string>
+    <string name="enter">Ingresar</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="title_unregister">Aun no tengo un usuario.</string>
+    <string name="signup"><u>Registrarme</u></string>
+    <string name="add_image">Añadir imágenes</string>
+    <string name="save_text">Guardar</string>
+    <string name="require_fields">Debes llenar los campos con *</string>
+    <string name="task_name">Nombre de la tarea*</string>
+    <string name="task_description">Descripción*</string>
+    <string name="share">Compartir</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Delete</string>
 </resources>

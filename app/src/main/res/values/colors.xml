@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="ds_primary_A">#FFFFFF</color>
+    <color name="ds_primary_B">#000000</color>
+    <color name="ds_primary_C">#888888</color>
+
+    <color name="ds_error">#ff0000</color>
+
+    <color name="ds_positive">#03A9F4</color>
+
+    <!--    Core-->
+    <color name="ds_content_A">#000000</color>
+    <color name="ds_content_B">#2E2C36</color>
+    <color name="ds_content_C">#D5D5D5</color>
+    <color name="ds_content_D">#E6EBF1</color>
+    <color name="ds_content_E">#F0F1F3</color>
+
+    <!--    Core Dark-->
+    <color name="ds_dark_content_A">#ffffff</color>
+    <color name="ds_dark_content_B">#AEAEAE</color>
+    <color name="ds_dark_content_C">#47484d</color>
+    <color name="ds_dark_content_D">#191a1c</color>
+    <color name="ds_dark_content_E">#131314</color>
+
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
