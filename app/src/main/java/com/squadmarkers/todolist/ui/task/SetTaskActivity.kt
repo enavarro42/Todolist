@@ -51,6 +51,10 @@ class SetTaskActivity : DaggerAppCompatActivity() {
             setTask()
         }
 
+        binding.iconClose.setOnClickListener {
+            onBackPressed()
+        }
+
         binding.taskName.addTextChangedListener(object : TextWatcher {
 
             override fun afterTextChanged(s: Editable) = Unit
