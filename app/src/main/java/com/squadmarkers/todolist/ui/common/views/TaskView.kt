@@ -1,20 +1,26 @@
 package com.squadmarkers.todolist.ui.common.views
 
 import android.view.View
+import com.squadmarkers.todolist.R
+import com.squadmarkers.todolist.data.models.TaskModel
 import com.squadmarkers.todolist.databinding.TaskLayoutBinding
 import com.xwray.groupie.viewbinding.BindableItem
 
-class TaskView : BindableItem<TaskLayoutBinding>() {
+class TaskView(
+    val task: TaskModel
+) : BindableItem<TaskLayoutBinding>() {
+
+    private lateinit var binding: TaskLayoutBinding
+
     override fun bind(viewBinding: TaskLayoutBinding, position: Int) {
-        TODO("Not yet implemented")
+        this.binding = viewBinding
+        binding.title.text = task.title.orEmpty()
     }
 
-    override fun getLayout(): Int {
-        TODO("Not yet implemented")
-    }
+    override fun getLayout(): Int = R.layout.task_layout
 
     override fun initializeViewBinding(view: View): TaskLayoutBinding {
-        TODO("Not yet implemented")
+        return TaskLayoutBinding.bind(view)
     }
 
 }

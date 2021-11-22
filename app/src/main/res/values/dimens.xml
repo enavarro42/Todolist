@@ -59,4 +59,5 @@
     <dimen name="rds_spacing_56">224dp</dimen>
     <dimen name="rds_spacing_84">336dp</dimen>
     <dimen name="rds_spacing_500">2000dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

@@ -18,4 +18,11 @@
     <string name="share">Compartir</string>
     <string name="edit">Editar</string>
     <string name="delete">Delete</string>
+    <string name="user_created_success">Usario creado con exito!</string>
+    <string name="password_not_match">Las contraseñas no coinciden</string>
+    <string name="user_exist">El usuario ya existe!</string>
+    <string name="error_creating_user">Ocurrió un error creando el usuario, intenta más tarde.</string>
+    <string name="error_empty_fields">Debe llenar todos los campos.</string>
+    <string name="error_user_password_not_valid">Usuario o contraseña no validos</string>
+    <string name="prefs_file">com.squadmarkers.todolist.PREFERENCE_FILE_KEY</string>
 </resources>
